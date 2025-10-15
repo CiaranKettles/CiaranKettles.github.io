@@ -33,6 +33,21 @@ h1 {
 }
 
 h2 {
-	
+	font-size: 1.5rem;
+	font-style: italic;
 
+}
+
+. job-title {
+  color: darkslategray;
+  font-style: bold;  
+}
+
+a {
+  color: green;  
+	
+}
+
+a:hover {
+  color: darkgreen;
 }
