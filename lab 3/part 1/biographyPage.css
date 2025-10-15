@@ -50,4 +50,5 @@ a {
 
 a:hover {
   color: darkgreen;
+  text-decoration: none;
 }
