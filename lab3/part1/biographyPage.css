@@ -38,9 +38,9 @@ h2 {
 
 }
 
-. job-title {
+.job-title {
   color: darkslategray;
-  font-style: bold;  
+  font-weight: bold;  
 }
 
 a {
