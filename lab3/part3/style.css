@@ -26,6 +26,8 @@ img {
   margin: 0 auto;
   max-width: 980px;
   display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
 }
 
 nav {
@@ -60,4 +62,23 @@ nav a {
   float: left;
   margin-right: 10px;
   margin-bottom: 2px;
+}
+
+article {
+	column-count: 2;
+	width: 100%;
+	justify-content: left;
+	float: left;
+}	
+
+
+aside {
+	justify-content: right;
+	float: right;
+	width: 100%;
+	display: grid;
+	column-count: 2;
+	width:200px;
+	margin: 2px;
+	
 }
