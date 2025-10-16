@@ -50,3 +50,20 @@ h2 {
 	letter-spacing: 1px;
 	
 }
+
+a {
+	color: gray;
+	text-decoration: underline;
+	outline: 0px
+}
+
+a:hover {
+	color: lightgray;
+	text-decoration: none;
+}
+
+a[href*="http"] {
+  padding-right: 12px;
+  background: url("externalLink.png") no-repeat right center;
+  background-size: 10px 10px;
+}
