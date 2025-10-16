@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -9,6 +10,9 @@ body {
   padding: 0 20px;
   min-width: 980px;
   max-width: 1400px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  text-indent: 2rem;
 }
 
 /* Layout */
@@ -32,4 +36,17 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+h1 {
+	text-indent: 0px;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+h2 {
+	text-indent: 0px;
+	margin-bottom: 0px;
+	letter-spacing: 1px;
+	
 }
