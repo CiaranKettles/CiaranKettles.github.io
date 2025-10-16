@@ -76,3 +76,10 @@ nav li a{
 	text-transform: uppercase;
 	text-align: center;
 }
+
+ul, ol{
+	line-height: 30px;
+	margin-bottom: 0px;
+	list-style-type: square;
+	
+}
