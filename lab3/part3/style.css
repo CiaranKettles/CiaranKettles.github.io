@@ -71,14 +71,12 @@ article {
 	float: left;
 }	
 
-
-aside {
-	justify-content: right;
-	float: right;
-	width: 100%;
+.photos {
+	list-style: none;
 	display: grid;
-	column-count: 2;
-	width:200px;
-	margin: 2px;
+	grid-template-columns:: 1fr 1fr;
+	margin: 0px;
+	padding: 0px;
+	gap: 5px;
 	
 }
