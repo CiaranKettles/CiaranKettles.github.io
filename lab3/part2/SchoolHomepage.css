@@ -67,3 +67,12 @@ a[href*="http"] {
   background: url("externalLink.png") no-repeat right center;
   background-size: 10px 10px;
 }
+
+nav li a{
+	display: inline-block;
+	width: 100%;
+	border: 2px solid;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+}
