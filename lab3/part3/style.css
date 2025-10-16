@@ -57,4 +57,7 @@ nav a {
 
 .feature {
   width: 200px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 2px;
 }
