@@ -12,4 +12,5 @@ for (const image of images) {
 	const newImage = document.createElement("img");
 	newImage.src = '${baseURL}${image.filename}';
 	newImage.alt = image.alt;
-	
+	newImage.tabIndex = "0";
+	thumbBar.appendChild(newImage);
