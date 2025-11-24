@@ -28,18 +28,18 @@
 
     Were the beds <br>
 	
-    <input type = "checkbox" name = "bed quality" value = "too hard"/> Too hard? <br>
-    <input type = "checkbox" name = "bed quality" value = "too soft"/> Too soft? <br>
-    <input type = "checkbox" name = "bed quality" value = "just right"/> Just right? <br>
+    <input type = "radio" name = "bed quality" value = "too hard"/> Too hard? <br>
+    <input type = "radio" name = "bed quality" value = "too soft"/> Too soft? <br>
+    <input type = "radio" name = "bed quality" value = "just right"/> Just right? <br>
 	
 <br>
 
-    Describe the chairs (select all you agree with)
-    Comfy
-    Luxurious
-    Hi tec
-    Pretty
-    Majestic
+    Describe the chairs (select all you agree with) <br>
+    <input type = "checkbox" name = "chair quality" value = "comfy"/> Comfy <br>
+    <input type = "checkbox" name = "chair quality" value = "Luxurious"/> Luxurious <br>
+    <input type = "checkbox" name = "chair quality" value = "High Tech"/> Hi tec <br>
+    <input type = "checkbox" name = "chair quality" value = "pretty"/> Pretty <br>
+    <input type = "checkbox" name = "chair quality" value = "majestic"/> Majestic <br>
 
     --
 
@@ -68,11 +68,13 @@
 <br>
 
     --
+	
+<br>
 
     Any other feedback?
 
-    Give us your comments
-
+    <label for = "feedback"> Give us your comments </label>
+	<textarea id "feedback" name = "feedback" rows = "3" cols = "20"> </textarea>
     --
 
     Your details
