@@ -74,6 +74,14 @@ class Ball extends Shape{
 	}
 }
 
+class Ball extends Shape{
+  constructor(x, y, 20, 20, color, size) {
+    super (x, y, velX, velY);
+    this.color = "white";
+    this.size = 10;
+	this.exists = true;
+	}
+
 const balls = [];
 
 while (balls.length < 25) {
